@@ -20,6 +20,7 @@ public class binarySearch {
 
             if (arr[mid] == x) {
                 System.out.println("element found at index " + mid);
+                break;
             } else if (arr[mid] < x) {
                 start = mid + 1;
             } else {
